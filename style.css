@@ -14,6 +14,37 @@ body{
     margin: 0 auto;
 }
 
+#logo{
+    width: 9%;
+}
+
+header div.flex-nav .button{
+    padding: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 12px;
+}
+
+.white{
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+
+}
+
+header div.flex-nav p{
+    margin: 1rem;
+}
+
 .flex-nav{
     background-color: #255ee9;
     padding: 0.3rem 0;
@@ -24,17 +55,54 @@ body{
 }
 
 .header-flex{
-    background-color: #628cf7;
-    padding: 11rem 0rem;
+    background-image: url(../htmlcss-discord/img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 7.3rem 0;
     text-align: center;
-
-    
+    display: flex;
+    flex-direction: column;  
 }
 
-button.button{
-    margin-top: 2rem;
+.container-uno{
+    align-self: center;
+}
+
+.item-titolo{
+    padding-bottom: 1rem;
+}
+
+.container-due{
+    width: 50%;
+    align-self: center;
+}
+
+
+.item-p{
+    padding: 0rem 17.3rem;
+}
+
+div.header-flex .button{
+    margin-top: 1rem;
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-collapse: collapse;
+    border: #85a4f2;
+    border-color: #85a4f2;
+    font-size: 15px;
+
+}
+
+.mac{
+    padding: 0.5rem 0.8rem;
+}
+.black{
+    background-color: #222629;
+    padding: 0.6rem 0.8rem;
 }
 
 .main-flex {
